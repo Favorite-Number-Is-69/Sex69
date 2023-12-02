@@ -1,8 +1,8 @@
 code1 = "en_PK"
 loc1 = "PK"
 
-code2 = "ru_RU"
-loc2 = "RU"
+code2 = "en_CA"
+loc2 = "CA"
 
 code3 = "en_US"
 loc3 = "US"

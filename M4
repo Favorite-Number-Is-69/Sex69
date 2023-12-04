@@ -1,5 +1,5 @@
 def M4():
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-	b = random.choice(["[FBAN/Orca-Android;FBAV/196.0.0.41;FBPN/com.facebook.orca;FBLC/en_IN;FBBV/261600192;FBCR/Singtel;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/Redmi 5 Pro;FBSV/4.1.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.5,width=1080,height=1280};FB_FW/1;FBRV/632207232;]","[FBAN/Orca-Android;FBAV/196.0.0.41;FBPN/com.facebook.orca;FBLC/bn_BD;FBBV/261600192;FBCR/Skitto;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/MI 4S;FBSV/4.1.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.5,width=1080,height=1280};FB_FW/1;FBRV/632207232;]"])
+	b = ";[FBAN/Orca-Android;FBAV/196.0.0.41;FBPN/com.facebook.orca;FBLC/en_IN;FBBV/261600192;FBCR/Singtel;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/Xiaomi 13T;FBSV/4.1.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.5,width=1080,height=1280};FB_FW/1;FBRV/632207232;]"
 	ua = a+b
 	return ua

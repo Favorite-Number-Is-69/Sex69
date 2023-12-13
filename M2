@@ -1,5 +1,7 @@
 def M2():
+	net = random.choice(["Telenor","Jazz","Zong","Ufone","Fiber","Nepal Telecom","Vivo","H2O","Carlo RB","Spring"])
+	loc = random.choice(["en_US","en_GB","pt_BR","es_LA","en_PH","id_ID","es_MX"])
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-	b = ";[FBAN/FB4A;FBAV/308.0.0.42.118;FBBV/236468732;FBDM/{density=2.625,width=1080,height=1794};FBLC/en_GB;FBRV/238430540;FBCR/Ufone;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo 1724;FBSV/{b};FBOP/1;FBCA/arm64-v8a:;]"
+	b = ";[FBAN/FB4A;FBAV/308.0.0.42.118;FBBV/236468732;FBDM/{density=2.625,width=1080,height=1794};FBLC/"+loc+";FBRV/238430540;FBCR/"+net+";FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/V2134;FBSV/"+str(random.randint(4,12))+";FBOP/1;FBCA/arm64-v8a:;]"
 	ua = a+b
 	return ua

@@ -1,5 +1,5 @@
 def M3():
-    a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
-    b = random.choice(["[FBAN/FB4A;FBAV/109.0.0.76.46;FBBV/59166746;FBDM/{density=3.0,width=1080,height=2046};FBLC/en_US;FBRV/858632508;FBCR/Viettel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-N7105;FBSV/11;FBOP/19;FBCA/arm64-v8a:null;]","[FBAN/FB4A;FBAV/88.0.0.28.46;FBBV/36452157;FBDM/{density=3.0,width=1080,height=2046};FBLC/en_US;FBRV/858632508;FBCR/Viettel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J701F;FBSV/12;FBOP/19;FBCA/arm64-v8a:null;]","[FBAN/FB4A;FBAV/178.0.0.48.45;FBBV/19890104;FBDM/{density=3.0,width=1080,height=2046};FBLC/en_US;FBRV/858632508;FBCR/Viettel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-19105;FBSV/13;FBOP/19;FBCA/arm64-v8a:null;]","[FBAN/FB4A;FBAV/125.0.0.85.54;FBBV/39643666;FBDM/{density=3.0,width=1080,height=2046};FBLC/en_US;FBRV/858632508;FBCR/Viettel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-N8005;FBSV/13;FBOP/19;FBCA/arm64-v8a:null;]","[FBAN/FB4A;FBAV/147.0.0.30.38;FBBV/65881456;FBDM/{density=3.0,width=1080,height=2046};FBLC/en_US;FBRV/858632508;FBCR/Viettel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-7550 5GT-8005;FBSV/10;FBOP/19;FBCA/arm64-v8a:null;]"])
-    ua = a+b
-    return ua
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
+	b = ";[FBAN/FB4A;FBAV/243.0.0.47.108;FBBV/178056671;FBDM/{density=2.70,width=1080,height=2175};FBLC/en_US;FBRV/178056642;FBCR/Sprint;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G960F|SM-G960W;FBSV/9;FBOP/19;FBCA/x86:null:;]"
+	ua = a+b
+	return ua

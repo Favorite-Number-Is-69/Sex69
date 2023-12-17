@@ -1,5 +1,5 @@
 def M3():
-    a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-    b = ";[FBAN/Orca-Android;FBAV/262.2.0.26.120;FBPN/com.facebook.orca;FBLC/ar_tn;FBBV/211886019;FBCR/Orange Tunisia;FBMF/samsung;FBBD/samsung;FBDV/SM-G960F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.7,width=1440,height=2960};FB_FW/1;]"
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
+    b = random.choice(["[FBAN/FB4A;FBAV/56.0.0.23.64;FBBV/58172420;FBDM/{density=3.0,width=886,height=1374};FBLC/en_US;FBRV/72529749;FBCR/ZZ;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1823;FBSV/13;FBOP/19;FBCA/arm64-v8a:null;]","[FBAN/FB4A;FBAV/198.0.0.52.69;FBBV/56686410;FBDM/{density=3.0,width=1061,height=1702};FBLC/en_US;FBRV/50851097;FBCR/Plus;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1715;FBSV/12;FBOP/19;FBCA/arm64-v8a:null;]","[FBAN/FB4A;FBAV/308.0.0.49.61;FBBV/25505718;FBDM/{density=3.0,width=801,height=1771};FBLC/en_US;FBRV/33399079;FBCR/Viettel;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1717;FBSV/11;FBOP/19;FBCA/arm64-v8a:null;]","[FBAN/FB4A;FBAV/138.0.0.24.67;FBBV/52050185;FBDM/{density=2.0,width=811,height=1295};FBLC/en_US;FBRV/57248601;FBCR/Viettel;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1721;FBSV/12;FBOP/19;FBCA/arm64-v8a:null;]"])
     ua = a+b
     return ua

@@ -1,5 +1,5 @@
 def M2():
-	b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,318)) +";FBBV/"+str(random.randint(11111111,77777777))
-	c = ";[FBAN/Orca-Android;FBAV/196.0.0.56;FBPN/com.facebook.orca;FBLC/en_US;FBBV/634923909;FBCR/Dialpad;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/22041219NY;FBSV/4.2.4;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2408};FB_FW/1;FBRV/240086221;]"
-	ua = b+c
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
+	b = ";[FBAN/MobileAdsManagerAndroid;FBAV/295.0.0.0.19;FBBV/252091091;FBDM/{density=3.5,width=1440,height=2730};FBLC/es_HK;FBRV/253980635;FBCR/Three;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.adsmanager;FBDV/SM-T500;FBSV/7.0.1;FBOP/1;FBCA/arm64-v8a:;]"
+	ua = a+b
 	return ua

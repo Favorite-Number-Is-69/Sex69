@@ -1,11 +1,11 @@
-code1 = "en_GB"
-loc1 = "GB"
+code1 = "en_US"
+loc1 = "US"
 
 code2 = "en_US"
 loc2 = "US"
 
-code3 = "en_GB"
-loc3 = "GB"
+code3 = "en_US"
+loc3 = "US"
 
-code4 = "pt_BR"
-loc4 = "BR"
+code4 = "en_US"
+loc4 = "US"
